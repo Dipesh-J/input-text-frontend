@@ -31,7 +31,7 @@ export function SignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://input-box-backend-n5ys567oc-dipesh-j.vercel.app/signup",
+      "https://input-box-backend-habpjfbep-dipesh-j.vercel.app/signup",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

@@ -16,7 +16,7 @@ export function InputBox() {
       e.preventDefault();
       try {
         const response = await fetch(
-          "https://input-box-backend-n5ys567oc-dipesh-j.vercel.app/addText",
+          "https://input-box-backend-habpjfbep-dipesh-j.vercel.app/addText",
           {
             method: "POST",
             headers: {
